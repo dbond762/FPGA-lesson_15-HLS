@@ -1,21 +1,17 @@
-# Ignore build output directory
-/build
-/export
+# Результаты сборки HLS (csim / synth / cosim / package), всё пересоздаётся
+/hls_component/
 
-# Ignore object files and dependent files
-.o
-.d
+# Служебные файлы Vitis / индексатора
+.Xil/
+.cache/
+.hls.failed
+compile_commands.json
+.clangd
 
-#Ignore logs folder and log files
-/logs
-.log
-
-#Ignore lock files
-.lock
-
-.bin
-.pdi
-.vitisWorkspace.json
-
-_ide/logs
-_ide/.wsdata
+# Мусор компиляции и логи
+*.o
+*.d
+*.log
+*.jou
+*.lock
+*.str
