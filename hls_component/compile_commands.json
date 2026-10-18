@@ -1,0 +1,27 @@
+[
+  {
+    "directory": "D:\\FPGA\\HW_15\\hls_component",
+    "arguments": [
+      "D:\\AMDDesignTools\\2026.1\\Vitis\\win64\\tools\\clang-16\\bin\\clang++.exe",
+      "--sysroot=D:\\AMDDesignTools\\2026.1\\Vitis\\tps\\mingw\\10.0.0\\win64.o\\nt",
+      "-fhls",
+      "-hls-syn-headers-dir=D:\\AMDDesignTools\\2026.1\\Vitis\\common\\technology\\autopilot",
+      "-fhlstoplevel=moving_max",
+      "-c",
+      "D:\\FPGA\\HW_15\\hls_component\\moving_max.cpp"
+    ],
+    "file": "D:\\FPGA\\HW_15\\hls_component\\moving_max.cpp"
+  },
+  {
+    "directory": "D:\\FPGA\\HW_15\\hls_component",
+    "arguments": [
+      "D:\\AMDDesignTools\\2026.1\\Vitis\\win64\\tools\\clang-16\\bin\\clang++.exe",
+      "--sysroot=D:\\AMDDesignTools\\2026.1\\Vitis\\tps\\mingw\\10.0.0\\win64.o\\nt",
+      "-fhls-tb",
+      "-hls-sim-headers-dir=D:\\AMDDesignTools\\2026.1\\Vitis\\include",
+      "-c",
+      "D:\\FPGA\\HW_15\\hls_component\\tb_moving_max.cpp"
+    ],
+    "file": "D:\\FPGA\\HW_15\\hls_component\\tb_moving_max.cpp"
+  }
+]
